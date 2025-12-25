@@ -1,28 +1,32 @@
-# 📉 Customer Churn Prediction App
+# Customer Churn Prediction App
 
-A Machine Learning web application that predicts whether a customer is likely to churn based on service usage and contract details.
+## Overview
+Short explanation of what the app does and why churn prediction matters.
 
-## 🚀 Live Demo
-👉 (Add Streamlit Cloud link here after deployment)
-
-## 📌 Features
-- Logistic Regression based churn prediction
-- Interactive web interface using Streamlit
-- Probability-based prediction output
-- Clean and structured ML pipeline
-
-## 🧠 Tech Stack
-- Python 3.11
+## Tech Stack
+- Python
 - Pandas, NumPy
 - Scikit-learn
 - Streamlit
+- GitHub, Streamlit Cloud
 
-## 📂 Project Structure
-- app.py → Streamlit application
-- churn.py → Model training script
-- churn_model.pkl → Trained model
-- feature_columns.pkl → Model features
+## Dataset
+- Telco Customer Churn dataset
+- Source: Kaggle / IBM (mention clearly)
 
-## ⚙️ How to Run Locally
+## ML Workflow
+- Data cleaning
+- Feature encoding
+- Model training (Logistic Regression)
+- Model evaluation
+- Model deployment
+
+## How to Run Locally
 pip install -r requirements.txt
 streamlit run app.py
+
+## Live Demo
+👉 Paste your Streamlit app URL here
+
+## Screenshots
+(Optional but impressive)
